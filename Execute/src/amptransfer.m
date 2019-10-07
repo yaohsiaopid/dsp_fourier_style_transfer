@@ -1,0 +1,13 @@
+close all;
+% t = imread('../img/golden_gate_rs.png');
+% [m n] = size(t(:,:,1));
+% im1=funcfft_transfer('../img/john-reed-727447-unsplash_rs.png', '../img/john-reed-727447-unsplash_starry.png', '../img/mit_rs.png','../img/mit_starry.png');
+% im1=funcfft_transfer('../img/micromarket_rs.png', '../img/micromarket_starry.png', '../img/mit_rs.png','../img/mit_starry.png');
+im1=funcfft_transfer('../img/000000298697_rs.png', '../img/000000298697_starry.png', '../img/mit_rs.png','../img/mit_starry.png');
+im1=funcfft_transfer('../img/micromarket_rs.png', '../img/micromarket_starry.png', '../img/mit_rs.png','../img/mit_starry.png');
+% figure;
+% im2 = imread('../img/mit_starry.png');
+% imshow(im2(:,:,1));
+% im2=funcfft_transfer('../img/photo-1558446007-a2e07be0b0c4_rs.png', '../img/photo-1558446007-a2e07be0b0c4_starry.png', '../img/golden_gate_rs.png');
+% im3=funcfft_transfer('../img/tomasz-filipek-1175510-unsplash_rs.png', '../img/tomasz-filipek-1175510-unsplash_starry.png', '../img/golden_gate_rs.png');
+% figure; imshow(uint8((im1(1:m, 1:n)+ im2(1:m,1:n) + im3(1:m, 1:n) )/3));
